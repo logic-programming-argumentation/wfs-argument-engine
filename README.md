@@ -5,7 +5,7 @@ The underlying formalisms of the WFS argument engine are introduced in the paper
 
 #Short Description:
 
-[Argument Engine. Figure 1](http://www8.cs.umu.se/~esteban/img/argengineworkflow.png) 
+![Argument Engine. Figure 1](http://www8.cs.umu.se/~esteban/img/argengineworkflow.png) 
 
 The implementation of our argumentation engine is based on Java, using [InterProlog](http://interprolog.com/) as middleware for calling the [XSB](http://www.xsb.com/) solver, as shown in Figure 1. Our WFS argument engine captures an extended logic program using Prolog code as input. By considering a program as a directed graph, the argument engine performs a graph analysis checking connected components. Relevant rules for a particular atom are obtained by obtaining their subsets of connected atoms and generating all their possible subsets. The WFS analysis is performed by using InterProlog function calls which transforming XSB procedures to Java objects and conversely. Data regarding to the graph analysis, the evaluated support for a given conclusion is stored in an embedded database. The integration of support and conclusion for building the argument is one of the last steps of the workflow, composing the argument, storing it in the database and finally generating the user interface for displaying. 
 
