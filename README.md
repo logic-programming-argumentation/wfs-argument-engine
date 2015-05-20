@@ -1,7 +1,7 @@
 # WFS Argument Engine
 The WFS argument engine build arguments based on the notion of an argument under  the Well-Founded semantics and Stable semantics inferences, allowing us to identify arguments with stratified programs as support, even when the input for the argument engine is a non-stratified program.
 
-The underlying formalisms of the WFS argument engine are introduced in the paper: **Semantic-based Construction of Arguments: an Answer Set Programming Approach**, [Esteban Guerrero](http://www8.cs.umu.se/~esteban/), [Juan Carlos Nieves](http://www8.cs.umu.se/~jcnieves/) and [Helena Lindgren](http://www8.cs.umu.se/~helena/).
+The underlying formalisms of the WFS argument engine are introduced in the paper: **Semantic-based Construction of Arguments: an Answer Set Programming Approach**, [Esteban Guerrero](http://www8.cs.umu.se/~esteban/), [Juan Carlos Nieves](http://www8.cs.umu.se/~jcnieves/) and [Helena Lindgren](http://www8.cs.umu.se/~helena/), 2015. Semantic-based Construction of Arguments: an Answer Set Programming Approach. International Journal of Approximate Reasoning.
 
 #Short Description:
 
